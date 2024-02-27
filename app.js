@@ -111,3 +111,27 @@
   });
 
   
+
+
+
+  function showContent(contentId) {
+    // Tüm içerikleri gizle
+    var allContents = document.querySelectorAll('.content');
+    allContents.forEach(function(content) {
+        content.style.display = 'none';
+    });
+
+    // Belirli içeriği göster
+    var selectedContent = document.getElementById('content' + contentId);
+    if (selectedContent) {
+        selectedContent.style.display = 'block';
+    }
+}
+
+function hideContent(contentId) {
+    // Belirli içeriği gizle
+    var selectedContent = document.getElementById('content' + contentId);
+    if (selectedContent) {
+        selectedContent.style.display = 'none';
+    }
+}

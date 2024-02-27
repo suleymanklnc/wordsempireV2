@@ -1,7 +1,6 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-
 
 * {
   box-sizing: border-box;
@@ -13,11 +12,10 @@ html{
 body::-webkit-scrollbar {
   width: 20px;
   /* width of the entire scrollbar */
-
 }
 
 body::-webkit-scrollbar-track {
-  background:transparent;
+  background: transparent;
   /* color of the tracking area */
 }
 
@@ -76,8 +74,7 @@ body::before {
   padding: 0;
   line-height: 1;
   font-weight: 900;
-  font-family: 'Harry Potter', sans-serif;
-                                                
+  font-family: "Harry Potter", sans-serif;
 }
 
 .title {
@@ -148,7 +145,6 @@ body::before {
 .navbar {
   padding: 0;
   margin-bottom: 8rem;
-  
 }
 
 .navbar ul {
@@ -303,8 +299,6 @@ section {
   border-radius: 20px;
 }
 
-
-
 section.section-show {
   bottom: auto;
   opacity: 1;
@@ -375,7 +369,6 @@ section .container {
   color: #555;
 }
 
-
 /*---------------------BİLGİ KARTLARI BAŞLANGIÇ-------------------------*/
 .innersoftware {
   display: flex;
@@ -396,16 +389,15 @@ section .container {
   background: #151515;
   border-radius: 20px;
   border: 2px solid transparent;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   text-align: center;
 }
 
 .innersoftware_child:hover {
   border: 2px solid rgb(11, 196, 226);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.1);
 }
-
 
 .innersoftware_child .bilgicard_title {
   font-size: 20px;
@@ -452,10 +444,6 @@ section .container {
   transform: translate3d(-50%, -50%, 0);
 }
 
-
-
-
-
 .readmorebtn {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -472,9 +460,11 @@ section .container {
   min-width: 13ch;
   padding: 0.1em 0.1em;
   border-radius: 1em;
-  transition: opacity 0.3s cubic-bezier(0.2, 0, 0.1, 1), transform 0.3s cubic-bezier(0.2, 0, 0.1, 1), box-shadow 0.5s ease, color 0.5s ease, background 0.5s ease;
+  transition: opacity 0.3s cubic-bezier(0.2, 0, 0.1, 1),
+    transform 0.3s cubic-bezier(0.2, 0, 0.1, 1), box-shadow 0.5s ease,
+    color 0.5s ease, background 0.5s ease;
   will-change: box-shadow, color, transform, opacity, background;
-  background:rgb(11, 196, 226);
+  background: rgb(11, 196, 226);
   box-shadow: inset 0 0 0 0.1em rgb(11, 196, 226), 0 0 0 rgba(124, 56, 216, 0);
   cursor: pointer;
 }
@@ -498,7 +488,8 @@ section .container {
   padding-bottom: 200%;
   border-radius: 25%;
   border: unset;
-  transition: transform 0s cubic-bezier(0.2, 0, 0.1, 1) 0.5s, opacity 0.5s cubic-bezier(0.2, 0, 0.1, 1);
+  transition: transform 0s cubic-bezier(0.2, 0, 0.1, 1) 0.5s,
+    opacity 0.5s cubic-bezier(0.2, 0, 0.1, 1);
   opacity: 0;
 }
 
@@ -509,14 +500,20 @@ section .container {
 
 .readmorebtn:after {
   transform: translate3d(10%, 4.8em, 0) rotate(0deg);
-  background: linear-gradient(70deg, rgba(150, 56, 216, 0.5), rgba(124, 56, 216, 0));
+  background: linear-gradient(
+    70deg,
+    rgba(150, 56, 216, 0.5),
+    rgba(124, 56, 216, 0)
+  );
 }
 
 .readmorebtn:hover,
 .readmorebtn:focus {
-  transition: opacity 0.3s cubic-bezier(0.2, 0, 0.1, 1), transform 0.3s cubic-bezier(0.2, 0, 0.1, 1), box-shadow 2s ease, color 1.5s ease, background 1s ease 0.75s;
+  transition: opacity 0.3s cubic-bezier(0.2, 0, 0.1, 1),
+    transform 0.3s cubic-bezier(0.2, 0, 0.1, 1), box-shadow 2s ease,
+    color 1.5s ease, background 1s ease 0.75s;
   background: rgb(11, 196, 226);
-  box-shadow: inset 0 0 0 0.1em #6138D8, 0 0 1.75em rgba(150, 56, 216, 0.5);
+  box-shadow: inset 0 0 0 0.1em #6138d8, 0 0 1.75em rgba(150, 56, 216, 0.5);
 }
 
 .readmorebtn:hover.outlined,
@@ -542,38 +539,25 @@ section .container {
   transform: translate3d(10%, -1em, 0) rotate(180deg);
 }
 
-
-
 /*READ MORE BUTONU İÇİN*/
 
-
 @media only screen and (max-width: 950px) {
-
-
   .innersoftware {
-      width: 80%;
-
+    width: 80%;
   }
 
   .innersoftware_child {
-      flex-basis: 100%;
-      margin-bottom: 50px;
+    flex-basis: 100%;
+    margin-bottom: 50px;
   }
 
   .innersoftware_child:hover {
-      border: 2px solid #9638d8;
-      transform: scale(1);
+    border: 2px solid #9638d8;
+    transform: scale(1);
   }
 }
 
-
 /*---------------------BİLGİ KARTLARI SONU-------------------------*/
-
-
-
-
-
-
 
 .credits {
   position: fixed;
@@ -583,8 +567,8 @@ section .container {
   padding: 15px;
   text-align: center;
   font-size: 15px;
-  color: #ffa432;
-  z-index: 999999;
+  color: #ffa33273;
+  z-index: 99999999999;
 }
 
 @media (max-width: 992px) {
@@ -596,7 +580,7 @@ section .container {
 }
 
 .credits a {
-  color: #ffa432;
+  color: #ffa33273;
   transition: 0.3s;
 }
 
@@ -604,23 +588,18 @@ section .container {
   color: #fff;
 }
 
-
-
-
 .groups {
   width: 100%;
   height: auto;
 }
 
-.groups ul{
+.groups ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 5rem;
 }
-
-
 
 .ilkgruplar {
   width: 30%;
@@ -629,14 +608,14 @@ section .container {
   transition: all 0.5s ease-in-out;
 }
 
-.ilkgruplar a img{
+.ilkgruplar a img {
   border-radius: 0%;
   transition: all 0.6s ease-in-out;
   border: 2px solid #151515;
   box-shadow: 0 0 5px rgb(11, 196, 226), 0 0 5px rgb(11, 196, 226);
 }
 
-.ilkgruplar a img:hover{
+.ilkgruplar a img:hover {
   border-radius: 10%;
   transition: all 0.5s ease-in-out;
   border: 2px solid rgb(11, 255, 255);
@@ -649,26 +628,90 @@ div.groups ul li a:hover {
   cursor: grab;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
-  
+}
+
+@media only screen and (max-width: 950px) {
+  .groups {
+    width: 100%;
+  }
+
+  .groups ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .ilkgruplar {
+    width: 80%;
+  }
+}
+
+.content {
+  display: none;
+  width: 80%;
+  height: 10vh;
+  z-index: 9000;
+  position: absolute;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid #151515;
+  background: rgba(0, 0, 0, 1);
+}
+
+.close-button {
+  font-family: "Harry Potter", sans-serif;
+  cursor: pointer;
+  color: crimson;
+  font-size: 30px;
+  float: right;
+  padding: 1rem;
+}
+
+.content h2 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-family: "Harry Potter", sans-serif;
+  color: rgb(11, 196, 226);
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.fruits-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 1);
+}
+
+.fruits-cards .fruit-card {
+  width: 30%;
+  padding: 2rem;
+  border: 2px solid rgb(100, 255, 255);
+  background-color: aliceblue;
+  margin: 1rem;
+  border-radius: 3%;
+  text-align: center;
+  color: crimson;
+  font-family: "Harry Potter", sans-serif;
+  font-size: 30px;
+  align-items: center;
 }
 
 
 @media only screen and (max-width: 950px) {
-
-
-  .groups{
-    width: 100%;
+  .content{
+    width: 95%;
+    height: 80vh;
   }
 
- .groups ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
+.fruits-cards{
+  width: 100%;
 }
 
-  .ilkgruplar{
-    width: 80%;
+  .fruits-cards .fruit-card{
+    width: 85%;
   }
 }
