@@ -15,16 +15,16 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent;
+  background: black;
   /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: black;
   /* color of the scroll thumb */
   border-radius: 10px;
   /* roundness of the scroll thumb */
-  border: 3px solid transparent;
+  border: 3px solid black;
   /* creates padding around scroll thumb */
 }
 
@@ -695,7 +695,7 @@ div.groups ul li a:hover {
   border-radius: 3%;
   text-align: center;
   color: crimson;
-  font-family: "Harry Potter", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   align-items: center;
 }
@@ -715,3 +715,5 @@ div.groups ul li a:hover {
     width: 85%;
   }
 }
+
+
